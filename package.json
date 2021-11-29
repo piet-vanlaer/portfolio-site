@@ -1,0 +1,20 @@
+{
+  "name": "vite-project",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "deploy": "aws s3 sync dist/ s3://pietvanlaer.com"
+  },
+  "devDependencies": {
+    "vite": "^2.6.4"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "dat.gui": "^0.7.7",
+    "gsap": "^3.8.0",
+    "three": "^0.134.0",
+    "troika-three-text": "^0.44.0"
+  }
+}

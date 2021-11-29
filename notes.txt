@@ -1,0 +1,13 @@
+[x] Refactor code
+    [x] add comments
+    [x] add sections and better function heirarchy
+    [x] improve file heirarchy
+[x] Add text panels
+[x] Add animations
+[x] Add Email
+[ ] DEPLOY 
+    [x] built using vite
+    [] configure S3 static site and push to S3
+    [] create automation workflow for management (CI/CD; IaC)
+    [] ssl cert
+    [] Domain Registration
